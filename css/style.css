@@ -1,0 +1,60 @@
+body{
+    background-image: url(../imagens/vecteezy_minimalist-and-modern-future-abstract-geometric-shape_11607149_332.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(76, 129, 127);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(186, 245, 241);
+    border: 2px solid rgb(170, 242, 238);
+    width: 60vh;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+.box input{
+    font-family: 'Mochiy Pop One', sans-serif;
+    border: 2px solid rgb(255, 209, 123);
+    border-radius: 10px;
+    color: rgb(76, 129, 127);
+    font-size: 1.2em;
+    text-align: center;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.box button{
+    padding: 2%;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgb(255, 209, 123);
+    border: 2px solid rgb(170, 242, 238);
+    color: rgb(76, 129, 127);
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.box button:hover{
+    background-color: rgb(170, 242, 238);
+    border: 2px solid rgb(255, 209, 123);
+    color: rgb(255, 209, 123);
+}
+.box #mostrar{
+    text-align: center;
+}
+
+@media only screen and (max-width:920px){
+    body{
+        background-image: url(../imagens/vecteezy_minimalist-and-modern-future-abstract-geometric-shape_11607149_333.jpg);
+    }
+}
